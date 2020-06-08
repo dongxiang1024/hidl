@@ -1,0 +1,6 @@
+service vendor.attempt-hal-1-0 /vendor/bin/hw/android.hardware.attempt@1.0-service
+    interface android.hardware.attempt@1.0::IAttempt default
+    class hal
+    user system
+    group system
+
